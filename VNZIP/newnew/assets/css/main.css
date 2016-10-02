@@ -5,20 +5,12 @@ a {
   font-weight:400;
 }
 
-div.container {
-}
-
 div.col-md-6 {
   padding-top:15px;
 }
 
 a.btn.btn-default {
   margin-top:15px;
-}
-
-i.fa.fa-bitbucket:hover {
-  font-size:2.5em;
-  color:#030303;
 }
 
 .btn.focus, .btn:focus, .btn:hover {
@@ -46,11 +38,6 @@ i.fa.fa-phone {
 i.fa.fa-envelope-o {
   font-size:1.75em;
   color:#009ee0;
-}
-
-i.fa.fa-envelope-o:hover {
-  font-size:1.75em;
-  color:#000000;
 }
 
 div.simple-slider {
@@ -112,5 +99,9 @@ div#carousel-1.carousel.slide {
   color:#3fafff;
   background-color:#f7f7f7;
   border-color:#fefbfb;
+}
+
+.body {
+  padding-top: 100px;
 }
 
