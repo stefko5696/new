@@ -9,6 +9,11 @@
 .connection-button {
     background-color: #01a6ea;
     color: white;
+    font-weight: 400;
+}
+
+.connection-button:hover {
+    color: white;
 }
 
 .connection-description {
