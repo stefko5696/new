@@ -1,12 +1,8 @@
 nav.navbar {
   height:56px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 5;
   background-color: #fff;
   box-shadow: 0 2px 7px -4px #8F8F8F; 
+  border: 0;
 }
 
 .navbar-brand {
