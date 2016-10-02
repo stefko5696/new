@@ -1,24 +1,57 @@
 a {
-  color:#3fafff;
+  color:#01a6ea;
   font-size:1.5em;
   font-weight:400;
 }
 
-.carousel-caption {
-  background-color:rgba(237,244,249,0.58);
-  position:absolute;
-  right:15%;
-  bottom:0px;
-  left:15%;
-  z-index:10;
-  padding-top:0px;
-  padding-bottom:10px;
-  color:#fff;
-  text-align:center;
-  text-shadow:0 1px 2px rgba(0,0,0,.6);
+.body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  padding-top: 100px;
 }
 
-.body {
-  padding-top: 100px;
+.container .jumbotron {
+  background-color: #fff;
+  padding: 30px;
+}
+
+.container .jumbotron h3 {
+  margin-top: 0;
+}
+
+.jumbotron .form-header-text {
+  color: #8F8F8F;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.form-btn-submit {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #01a6ea;
+  color: white;
+  font-size: 20px;
+}
+
+.contact-below-form-inner {
+  position: relative;
+  padding-left: 80px;
+}
+
+.contact-below-form-inner .fa {
+  position: absolute;
+  left: 20px;
+  font-size: 50px;
+  color: #01a6ea;
+}
+
+.contact-below-form-inner p{
+  margin: 0;
+  font-size: 18px;
+}
+
+.contact-below-form-inner p a {
+  font-size: 18px;
+  color: black;
+  font-weight: 300;
 }
 

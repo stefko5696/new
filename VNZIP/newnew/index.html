@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
 </head>
 
 <body class="body">
@@ -43,21 +44,21 @@
                 <div class="carousel slide" data-ride="carousel" id="carousel-1">
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <div class="jumbotron hero-nature carousel-hero"></div>
+                            <div class="carousel-image" style="background-image: url('/assets/img/Scene1-02.jpg')" alt=""></div>
                             <div class="carousel-caption">
-                                <p><strong>"Điều làm trẻ đau khổ không phải là thiếu ăn, thiếu mặc, hay không được học hành; mà chính là không có gia đình và thấy mình không thuộc về ai".&nbsp; </strong></p>
+                                <p><strong>"Điều làm trẻ đau khổ không phải là thiếu ăn, thiếu mặc, hay không được học hành; mà chính là không có gia đình và thấy mình không thuộc về ai" </strong></p>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="jumbotron hero-photography carousel-hero"></div>
+                            <div class="carousel-image" style="background-image: url('/assets/img/Scene1-01.jpg')" alt=""></div>
                             <div class="carousel-caption">
-                                <p><strong>Hãy là một trong 1000 người đỡ đầuKhông để trẻ em phải lớn lên một mình &nbsp; </strong></p>
+                                <p><strong>Hãy là một trong 1000 người đỡ đầu không để trẻ em phải lớn lên một mình</strong></p>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="jumbotron hero-technology carousel-hero"></div>
+                            <div class="carousel-image" style="background-image: url('/assets/img/Scene3-01.jpg')" alt=""></div>
                             <div class="carousel-caption">
-                                <p><strong>Tham gia đỡ đầu để trẻ và bạn đều nhận được yêu thương&nbsp; </strong></p>
+                                <p><strong>Tham gia đỡ đầu để trẻ và bạn đều nhận được yêu thương</strong></p>
                             </div>
                         </div>
                     </div>
@@ -70,9 +71,10 @@
             <div class="col-md-7">
                 <form>
                     <div class="jumbotron">
-                        <h3>Bỏ vào Lọ đựng tình thương chỉ hơn 6.500đ mỗi ngày để thay đổi tương lai của một đứa trẻ. Hãy điền thông tin tham gia. </h3>
+                        <h3>Bỏ vào "Lọ đựng tình thương" chỉ hơn 6.500đ mỗi ngày để thay đổi tương lai của một đứa trẻ. </h3>
+                        <p class="form-header-text">Hãy điền các thông tin dưới đây để tham gia</p>
                         <form>
-                            <div class="row">
+                            <div class="row form-group">
                                 <div class="col-md-6">
                                     <input class="form-control" type="text" required placeholder="Họ và tên lót">
                                 </div>
@@ -80,7 +82,7 @@
                                     <input class="form-control" type="text" required placeholder="Tên">
                                 </div>
                             </div>
-                            <div class="row">
+                            <div class="row form-group">
                                 <div class="col-md-6">
                                     <input class="form-control" type="tel" required placeholder="Số ĐT">
                                 </div>
@@ -88,7 +90,7 @@
                                     <input class="form-control" type="emal" required placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
                                 </div>
                             </div>
-                            <div class="row">
+                            <div class="row form-group">
                                 <div class="col-md-6">
                                     <input class="form-control" type="text" required placeholder="Địa chỉ">
                                 </div>
@@ -96,7 +98,7 @@
                                     <input class="form-control" type="text" required placeholder="Tỉnh/Thành phố">
                                 </div>
                             </div>
-                            <div class="row">
+                            <div class="row form-group">
                                 <div class="col-md-6">
                                     <input class="form-control" type="text" required placeholder="Quốc gia">
                                 </div>
@@ -104,21 +106,21 @@
                                     <input class="form-control" type="tel" required placeholder="Số trẻ muốn đăng ký đỡ đầu">
                                 </div>
                                 <div class="col-md-12">
-                                    <p class="text-right">
-                                        <button class="btn btn-warning btn-lg" type="submit">ĐĂNG KÝ</button>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <p class="text-right"><i class="fa fa-phone"></i> Gọi 08 6682 2068</p>
-                                    <p class="text-right">Hotline 0989737733</p>
-                                </div>
-                                <div class="col-md-7">
-                                    <p class="text-nowrap"><i class="fa fa-envelope-o"></i> Email: office@sosvietnam.org</p>
+                                    <button class="btn form-btn-submit" type="submit">ĐĂNG KÝ</button>
                                 </div>
                             </div>
                         </form>
+                        <div class="row contact-below-form">
+                            <div class="col-md-6 contact-below-form-inner">
+                                <i class="fa fa-phone"></i>
+                                <p>Gọi <a href="tel:+84866822068">08 6682 2068</a></p>
+                                <p>Hotline <a href="tel:+84989737733">0989737733</a></p>
+                            </div>
+                            <div class="col-md-6 contact-below-form-inner">
+                                <i class="fa fa-envelope-o"></i>
+                                <p>Email: <a href="mailto:office@sosvietnam.org">office@sosvietnam.org</a></p>
+                            </div>
+                        </div>
                     </div>
                 </form>
             </div>
