@@ -1,0 +1,116 @@
+a {
+  font-family:'Roboto';
+  color:#3fafff;
+  font-size:1.5em;
+  font-weight:400;
+}
+
+div.container {
+}
+
+div.col-md-6 {
+  padding-top:15px;
+}
+
+a.btn.btn-default {
+  margin-top:15px;
+}
+
+i.fa.fa-bitbucket:hover {
+  font-size:2.5em;
+  color:#030303;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+  color:#00070a;
+  text-decoration:none;
+}
+
+button.btn.btn-default {
+  margin-top:15px;
+  font-family:'Open Sans';
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+  padding-right:15px;
+  padding-left:15px;
+  border-radius:6px;
+  background-color:transparent;
+}
+
+i.fa.fa-phone {
+  font-size:1.75em;
+  color:#009ee0;
+}
+
+i.fa.fa-envelope-o {
+  font-size:1.75em;
+  color:#009ee0;
+}
+
+i.fa.fa-envelope-o:hover {
+  font-size:1.75em;
+  color:#000000;
+}
+
+div.simple-slider {
+  /*max-width:70%;*/
+  max-width:1140px;
+  /*left:50%;*/
+  /*right:3%;*/
+  display:flex;
+  align-items:center;
+  /*vertical-align:middle;*/
+  /*display:table;*/
+  /*align-content:center;*/
+}
+
+div#carousel-1.carousel.slide {
+  max-height:300px;
+}
+
+.jumbotron {
+  padding-top:30px;
+  padding-bottom:1px;
+  margin-bottom:30px;
+  color:inherit;
+  background-color:#eee;
+}
+
+.glyphicon {
+  position:relative;
+  top:1px;
+  display:inline-block;
+  font-family:'Glyphicons Halflings';
+  font-style:normal;
+  font-weight:400;
+  line-height:1;
+  color:#3fafff;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color:#e61717;
+}
+
+.carousel-caption {
+  background-color:rgba(237,244,249,0.58);
+  position:absolute;
+  right:15%;
+  bottom:0px;
+  left:15%;
+  z-index:10;
+  padding-top:0px;
+  padding-bottom:10px;
+  color:#fff;
+  text-align:center;
+  text-shadow:0 1px 2px rgba(0,0,0,.6);
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open > .dropdown-toggle.btn-default.focus, .open > .dropdown-toggle.btn-default:focus, .open > .dropdown-toggle.btn-default:hover {
+  color:#3fafff;
+  background-color:#f7f7f7;
+  border-color:#fefbfb;
+}
+

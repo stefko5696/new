@@ -1,0 +1,58 @@
+#slider {
+  width:1000px;
+  height:450px;
+}
+
+#slider {
+  position:relative;
+  background:#fff url(../loading.gif) center center no-repeat;
+  z-index:10;
+}
+
+#slider img {
+  visibility:hidden;
+}
+
+i.fa.fa-bitbucket-square:hover {
+  color:#000000;
+  /*background-color:#000000;*/
+}
+
+i.fa.fa-bitbucket-square {
+  color:#3fafff;
+  font-size:4.5em;
+  float:right;
+}
+
+p.lead.text-center {
+  /*width:80%;*/
+}
+
+p.text-center {
+  font-family:'Roboto';
+}
+
+p.description {
+  font-family:'Roboto';
+}
+
+i.icon.ion-social-instagram:hover {
+  color:#3fafff;
+}
+
+i.icon.ion-social-snapchat:hover {
+  color:#3fafff;
+}
+
+i.icon.ion-social-twitter:hover {
+  color:#3fafff;
+}
+
+i.icon.ion-social-facebook:hover {
+  color:#3fafff;
+}
+
+div.jumbotron.hero-nature.carousel-hero {
+  height:550px;
+}
+
