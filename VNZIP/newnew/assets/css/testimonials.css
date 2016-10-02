@@ -1,0 +1,8 @@
+.testimonials .author {
+    width: 100%;
+}
+
+.testimonials .author img{
+    width: 100%;
+    max-width: 50px;
+}

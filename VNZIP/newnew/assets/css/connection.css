@@ -1,17 +1,17 @@
-.youwill-image {
+.connection-image {
     width: 100%;
 
 }
-.youwill-image img{
+.connection-image img{
     width: 100%;
 }
 
-.youwill-button {
+.connection-button {
     background-color: #01a6ea;
     color: white;
 }
 
-.youwill-description {
+.connection-description {
     font-size: 16px;
     font-weight: 300;
 }
