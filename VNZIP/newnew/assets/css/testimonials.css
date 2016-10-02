@@ -1,8 +1,21 @@
+.testimonials h2 {
+    text-transform: uppercase;
+}
+
 .testimonials .author {
     width: 100%;
+    text-align: center;
+}
+
+.testimonials .intro {
+    margin-bottom: 20px;
+}
+
+.testimonials .description {
+    text-align: center;
 }
 
 .testimonials .author img{
     width: 100%;
-    max-width: 50px;
+    max-width: 70px;
 }
