@@ -17,3 +17,33 @@ nav.navbar {
   font-size: 14px;
   font-weight: 400;
 }
+
+
+@media screen and (max-width: 768px) {
+
+  nav .container .navbar-collapse {
+    background-color: white;
+    height: 100%;
+    max-height: none;
+  }
+
+  nav.navbar {
+    height: 50px;
+  }
+
+  nav.navbar .container {
+    height: 100vh;
+  }
+
+  .navbar-brand {
+    padding-left: 0;
+  }
+
+  .navbar-brand img {
+    height: 100%;
+  }
+
+  .navbar-toggle .icon-bar{
+    background-color: #009ee0;
+  }
+}
