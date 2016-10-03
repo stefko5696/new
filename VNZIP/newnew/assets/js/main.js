@@ -24,7 +24,7 @@ $(document).ready(function() {
         });        
     });
 
-    $('.js-navigation li a, a[href^="#"]:not([data-toggle])').on('click', function() {
+    $('.js-navigation li a, a[href^="#"]:not([data-toggle], [data-slide])').on('click', function() {
         var delta = 56;
         if (window.innerWidth < 768) {
             delta = 50;

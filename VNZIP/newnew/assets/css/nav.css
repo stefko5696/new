@@ -18,14 +18,28 @@ nav.navbar {
   font-weight: 400;
 }
 
-@media (min-width: 768px) {
-  .container> .navbar-collapse {
-    margin-right: -15px;
-    margin-left: -15px;
+@media (min-width: 768px) and (max-width: 992px) {
+  nav.navbar {
+    height: 56px;
+  }
+
+  .navbar-right {
+    margin-right: 0;
+  }
+
+  .navbar .container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .container> .navbar-header {
+    float: none;
+    display: none;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
   nav .container .navbar-collapse {
     background-color: white;
