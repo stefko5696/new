@@ -27,3 +27,17 @@
 .stories .stories-image-container img{
     width: 100%
 }
+
+@media screen and (max-width: 768px) {
+    .stories-image-container {
+        margin-bottom: 20px;
+    }
+
+    .story-description {
+        margin-bottom: 50px;
+    }
+
+    .stories {
+        margin-bottom: 0;
+    }
+}

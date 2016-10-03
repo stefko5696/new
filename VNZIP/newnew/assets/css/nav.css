@@ -18,21 +18,24 @@ nav.navbar {
   font-weight: 400;
 }
 
+@media (min-width: 768px) {
+  .container> .navbar-collapse {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+}
 
 @media screen and (max-width: 768px) {
 
   nav .container .navbar-collapse {
     background-color: white;
-    height: 100%;
+    height: 100vh;
     max-height: none;
   }
 
   nav.navbar {
     height: 50px;
-  }
-
-  nav.navbar .container {
-    height: 100vh;
+     box-shadow: 0 0 4px 4px #8F8F8F; 
   }
 
   .navbar-brand {
@@ -45,5 +48,9 @@ nav.navbar {
 
   .navbar-toggle .icon-bar{
     background-color: #009ee0;
+  }
+
+  .navbar-collapse {
+    border-bottom: 1px solid #8F8F8F;
   }
 }

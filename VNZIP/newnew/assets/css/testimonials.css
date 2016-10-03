@@ -19,3 +19,13 @@
     width: 100%;
     max-width: 70px;
 }
+
+@media screen and (max-width: 768px) {
+    .testimonials .item {
+        margin-bottom: 50px;
+    }
+
+    .testimonials .item:last-child {
+        margin-bottom: 30px;
+    }
+}
