@@ -80,60 +80,58 @@
                     </div>
                 </div>
                 <div class="col-md-7">
-                    <form>
-                        <div class="jumbotron">
-                            <h3>Bỏ vào "Lọ đựng tình thương" chỉ hơn 6.500đ mỗi ngày để thay đổi tương lai của một đứa trẻ. </h3>
-                            <p class="form-header-text">Hãy điền các thông tin dưới đây để tham gia</p>
-                            <form>
-                                <div class="row form-group">
-                                    <div class="col-md-6">
-                                        <input class="form-control" type="text" required placeholder="Họ và tên lót">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <input class="form-control" type="text" required placeholder="Tên">
-                                    </div>
+                    <div class="jumbotron">
+                        <h3>Bỏ vào "Lọ đựng tình thương" chỉ hơn 6.500đ mỗi ngày để thay đổi tương lai của một đứa trẻ. </h3>
+                        <p class="form-header-text">Hãy điền các thông tin dưới đây để tham gia</p>
+                        <form id="contact-form" action="https://script.google.com/macros/s/AKfycbySydaat2gvvqufr59LrIcG6Q3Jclbnr42x946cU9iSCmEd9HQ/exec" method="GET">
+                            <div class="row form-group">
+                                <div class="col-md-6">
+                                    <input class="form-control" name="lastname" type="text" required placeholder="Họ và tên lót">
                                 </div>
-                                <div class="row form-group">
-                                    <div class="col-md-6">
-                                        <input class="form-control" type="tel" required placeholder="Số ĐT">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <input class="form-control" type="emal" required placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
-                                    </div>
-                                </div>
-                                <div class="row form-group">
-                                    <div class="col-md-6">
-                                        <input class="form-control" type="text" required placeholder="Địa chỉ">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <input class="form-control" type="text" required placeholder="Tỉnh/Thành phố">
-                                    </div>
-                                </div>
-                                <div class="row form-group">
-                                    <div class="col-md-6">
-                                        <input class="form-control" type="text" required placeholder="Quốc gia">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <input class="form-control" type="tel" required placeholder="Số trẻ muốn đăng ký đỡ đầu">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <button class="btn form-btn-submit" type="submit">ĐĂNG KÝ</button>
-                                    </div>
-                                </div>
-                            </form>
-                            <div class="row contact-below-form">
-                                <div class="col-md-6 contact-below-form-inner">
-                                    <i class="fa fa-phone"></i>
-                                    <p>Gọi <a href="tel:+84866822068">08 6682 2068</a></p>
-                                    <p>Hotline <a href="tel:+84989737733">0989737733</a></p>
-                                </div>
-                                <div class="col-md-6 contact-below-form-inner">
-                                    <i class="fa fa-envelope-o"></i>
-                                    <p>Email: <a href="mailto:office@sosvietnam.org">office@sosvietnam.org</a></p>
+                                <div class="col-md-6">
+                                    <input class="form-control" name="name" type="text" required placeholder="Tên">
                                 </div>
                             </div>
+                            <div class="row form-group">
+                                <div class="col-md-6">
+                                    <input class="form-control" name="phone" type="tel" required placeholder="Số ĐT">
+                                </div>
+                                <div class="col-md-6">
+                                    <input class="form-control" name="email" type="email" required placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col-md-6">
+                                    <input class="form-control" name="address" type="text" required placeholder="Địa chỉ">
+                                </div>
+                                <div class="col-md-6">
+                                    <input class="form-control" name="province" type="text" required placeholder="Tỉnh/Thành phố">
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col-md-6">
+                                    <input class="form-control" name="country" type="text" required placeholder="Quốc gia">
+                                </div>
+                                <div class="col-md-6">
+                                    <input class="form-control" name="childno" type="tel" required placeholder="Số trẻ muốn đăng ký đỡ đầu">
+                                </div>
+                                <div class="col-md-12">
+                                    <button class="btn form-btn-submit" type="submit">ĐĂNG KÝ</button>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="row contact-below-form">
+                            <div class="col-md-6 contact-below-form-inner">
+                                <i class="fa fa-phone"></i>
+                                <p>Gọi <a href="tel:+84866822068">08 6682 2068</a></p>
+                                <p>Hotline <a href="tel:+84989737733">0989737733</a></p>
+                            </div>
+                            <div class="col-md-6 contact-below-form-inner">
+                                <i class="fa fa-envelope-o"></i>
+                                <p>Email: <a href="mailto:office@sosvietnam.org">office@sosvietnam.org</a></p>
+                            </div>
                         </div>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -466,6 +464,7 @@
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
