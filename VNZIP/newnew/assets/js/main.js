@@ -19,18 +19,23 @@ $(document).ready(function() {
         submitButton.attr('disabled','');
         $.ajax({
             url: 'https://script.google.com/macros/s/AKfycbySydaat2gvvqufr59LrIcG6Q3Jclbnr42x946cU9iSCmEd9HQ/exec?' + params,
-            method: 'GET'
+            method: 'GET',
+            error: function(jqXHR, textStatus, errorThrow) {
+                if (jqXHR.status === 405 || jqXHR.status === 0) {
+                    alert('Thông tin của bạn đã được gửi đi. Chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất.');
+                } else {
+                    alert('Đã có lỗi xảy ra. Xin lỗi bạn vì sự bất tiện này. Vui lòng thử lại sau');
+                }
+                submitButton.removeAttr('disabled');
+                submitButton.html('ĐĂNG KÝ');                        
+            }
         }).done(function(res) {
             if (JSON.parse(res).success) {
                 alert('Thông tin của bạn đã được gửi đi. Chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất.');
                 submitButton.removeAttr('disabled');
                 submitButton.html('ĐĂNG KÝ');
             }
-        }).fail(function(res) {
-            alert('Đã có lỗi xảy ra. Xin lỗi vì sự bất tiện này, xin hãy quay lại sau.');
-            submitButton.removeAttr('disabled');
-            submitButton.html('ĐĂNG KÝ');
-        });        
+        });
     });
 
     $('.js-navigation li a, a[href^="#"]:not([data-toggle], [data-slide])').on('click', function() {
