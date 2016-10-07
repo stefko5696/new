@@ -14,6 +14,7 @@ $(document).ready(function() {
            childno: form.childno.value
         });
 
+        submitButton.html('ĐANG GỬI...');
         submitButton.attr('disabled','');
         $.ajax({
             url: 'https://script.google.com/macros/s/AKfycbySydaat2gvvqufr59LrIcG6Q3Jclbnr42x946cU9iSCmEd9HQ/exec?' + params,
@@ -22,10 +23,12 @@ $(document).ready(function() {
             if (JSON.parse(res).success) {
                 alert('Thông tin của bạn đã được gửi đi. Chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất.');
                 submitButton.removeAttr('disabled');
+                submitButton.html('ĐĂNG KÝ');
             }
         }).fail(function(res) {
             alert('Đã có lỗi xảy ra. Xin lỗi vì sự bất tiện này, xin hãy quay lại sau.');
             submitButton.removeAttr('disabled');
+            submitButton.html('ĐĂNG KÝ');
         });        
     });
 
