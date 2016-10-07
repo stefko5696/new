@@ -27,7 +27,7 @@
   .hovereffect .stories-image-container:after {
     position: absolute;
     content: '';
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     opacity: 0;
     top: 0;
