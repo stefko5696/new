@@ -11,6 +11,8 @@
     display: block;
     text-decoration: none;
     padding: 10px 15px;
+    background-color: #01a6ea;
+    color: white;
 }
 
 .faq-more {
