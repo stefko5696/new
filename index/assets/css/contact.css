@@ -1,0 +1,80 @@
+
+.container .jumbotron {
+  background-color: #fff;
+  padding: 30px 30px 30px 30px;
+}
+
+.container .jumbotron h3 {
+  margin-top: 0;
+}
+
+.jumbotron .form-header-text {
+  color: #8F8F8F;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.form-btn-submit {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #01a6ea;
+  color: white;
+  font-size: 20px;
+}
+
+.form-btn-submit:hover {
+  color: white;
+}
+
+.contact-below-form-inner {
+  position: relative;
+  padding-left: 80px;
+}
+
+.contact-below-form-inner .fa {
+  position: absolute;
+  left: 20px;
+  font-size: 50px;
+  color: #01a6ea;
+}
+
+.contact-below-form-inner p{
+  margin: 0;
+  font-size: 18px;
+}
+
+.contact-below-form-inner p a {
+  font-size: 18px;
+  color: black;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+  .container .jumbotron {
+    background-color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .form-control {
+    margin-bottom: 15px;
+  }
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  .form-btn-submit {
+    margin-bottom: 40px;
+  }
+
+  .contact-below-form-inner {
+    margin-bottom: 20px;
+    padding-left: 90px;
+  }
+
+  .container .jumbotron {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}

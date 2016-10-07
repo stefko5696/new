@@ -1,0 +1,18 @@
+.faq h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.faq .panel .panel-heading {
+    padding: 0;
+}
+
+.faq .panel .panel-title a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.faq-more {
+    font-size: 18px;
+}

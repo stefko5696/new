@@ -1,0 +1,32 @@
+.connection-image {
+    width: 100%;
+
+}
+.connection-image img{
+    width: 100%;
+}
+
+.connection-button {
+    background-color: #01a6ea;
+    color: white;
+    font-weight: 400;
+}
+
+.connection-button:hover {
+    color: white;
+}
+
+.connection-description {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+    .connection-item {
+        margin-bottom: 20px;
+    }
+
+    .connection-button {
+        width: 100%;
+    }
+}

@@ -1,0 +1,34 @@
+.about-us .about-us-link {
+    background-color: #01a6ea;
+    color: white;
+}
+
+.about-us .map {
+    padding-left: 30px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .about-us {
+        text-align: center;
+    }
+
+    .about-us .intro {
+        margin-bottom: 40px;
+    }
+    
+    .about-us .about-us-link {
+        width: auto;
+    }
+
+    .about-us .map {
+        width: 50%;
+        display: inline-block;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .about-us .about-us-link {
+        width: 100%;
+    }
+}
