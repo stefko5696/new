@@ -11,6 +11,7 @@
 
 .sponsor-child-submit {
     font-size: 17px;
+    white-space: normal;
 }
 
 @media screen and (max-width: 768px) {

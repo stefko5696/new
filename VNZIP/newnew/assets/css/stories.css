@@ -26,6 +26,7 @@
 .stories .stories-image-container {
     padding-bottom: 60%;
     overflow: hidden;
+    position: relative;
 }
 
 .stories .stories-image-container img{
