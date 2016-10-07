@@ -11,7 +11,8 @@ $(document).ready(function() {
            address: form.address.value,
            province: form.province.value,
            country: form.country.value,
-           childno: form.childno.value
+           childno: form.childno.value,
+           useragent: navigator.userAgent
         });
 
         submitButton.html('ĐANG GỬI...');
