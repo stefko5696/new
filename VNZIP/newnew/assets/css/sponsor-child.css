@@ -9,6 +9,10 @@
     font-weight: 300;
 }
 
+.sponsor-child-submit {
+    font-size: 17px;
+}
+
 @media screen and (max-width: 768px) {
     .sponsor-child-video {
         margin-bottom: 20px;

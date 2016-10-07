@@ -45,6 +45,8 @@ nav.navbar {
     background-color: white;
     height: 100vh;
     max-height: none;
+    animation: none;
+    transition: height 0.3s linear;
   }
 
   nav.navbar {

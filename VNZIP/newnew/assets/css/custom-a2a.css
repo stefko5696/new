@@ -1,0 +1,18 @@
+.a2a_floating_style.a2a_floating_style {
+    top:150px; 
+    margin-left:0px; 
+    z-index:10;
+    right: 0;
+}
+
+.a2a_svg {
+    margin-bottom: 10px;
+}
+
+.a2a_kit a:last-child .a2a_svg {
+    margin-bottom: 0;
+}
+
+.a2a_label {
+    display: none;
+}

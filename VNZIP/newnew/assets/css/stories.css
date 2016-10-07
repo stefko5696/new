@@ -19,13 +19,20 @@
     margin-bottom: 50px;
 }
 
+.story-description {
+    color: white;
+}
+
 .stories .stories-image-container {
-    max-height: 275px;
+    padding-bottom: 60%;
     overflow: hidden;
 }
 
 .stories .stories-image-container img{
-    width: 100%
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px){
@@ -49,6 +56,7 @@
 
     .story-description {
         margin-bottom: 50px;
+        color: black;
     }
 
     .stories {
