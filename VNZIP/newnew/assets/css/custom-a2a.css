@@ -16,3 +16,11 @@
 .a2a_label {
     display: none;
 }
+
+.a2a_kit a.lang {
+    padding: 5px;
+}
+
+.a2a_kit a.lang:hover {
+    text-decoration: none;
+}
