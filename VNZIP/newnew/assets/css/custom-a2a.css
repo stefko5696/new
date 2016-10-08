@@ -19,8 +19,9 @@
 
 .a2a_kit a.lang {
     padding: 5px;
+    padding-left: 8px;
 }
 
-.a2a_kit a.lang:hover {
+.a2a_kit a.lang:hover, .a2a_kit a.lang:focus {
     text-decoration: none;
 }
