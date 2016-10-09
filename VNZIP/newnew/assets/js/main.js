@@ -24,7 +24,8 @@ $(document).ready(function() {
             province: form.province.value,
             country: form.country.value,
             childno: form.childno.value,
-            useragent: navigator.userAgent
+            useragent: navigator.userAgent,
+            language: lang
         });
 
         submitButton.html(submittingText);
